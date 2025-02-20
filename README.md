@@ -1,2 +1,1 @@
-# IISSI2-Proyect
-Proyecto del laboratorio de IISSI 2
+Backend for the photo gallery lab project. It includes all necessary SQL files, and a basic file structure for the web app.

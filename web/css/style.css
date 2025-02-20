@@ -1,0 +1,22 @@
+div.photo-block {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+    }
+div.photo-title {
+    font-size: 140%;
+    font-family: Arial;
+    text-decoration: underline;
+    }
+div.photo-score {
+    font-family: 130%;
+    font-family: monospace;
+    }
+img.photo-image {
+    max-height: 200px;
+    width: auto;
+    }
+body.dark {
+    background-color: #222222;
+    color: #eeeeee;
+    }
