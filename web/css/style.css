@@ -16,7 +16,53 @@ img.photo-image {
     max-height: 200px;
     width: auto;
     }
+div.gallery-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    }
 body.dark {
-    background-color: #222222;
-    color: #eeeeee;
+    background-color: #E6E6E6;
+    color: #000000;
+    }
+input, select {
+    background-color: #f8f8f8;
+    border-color: #999999;
+    color: rgb(0, 0, 0);
+    }
+div.input-group > label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    }
+    .input-group {
+    margin-bottom: 0.5em;
+    }
+div.title-block {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #333333;
+    }
+    #title {
+    font-size: 300%;
+    text-decoration: none;
+    color: #BBBBBB;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    }
+    #subtitle {
+    font-size: 120%;
+    font-style: italic;
+    color: #BBBBBB;
+    font-family: monospace;
+    }
+
+div.navigation > a {
+    color: white;
+    font-size: 120%;
+    background-color: #555555;
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
     }

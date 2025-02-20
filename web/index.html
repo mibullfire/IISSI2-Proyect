@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
 
+    <head>
         <link rel="stylesheet" href="/css/style.css">
-        <title>Planeta Galactico</title>
-        <link rel="icon" href="/images/favicon.ico">
-    
+        <title>Galería</title>
+        <link rel="icon" href="/images/saturno.ico">
+        <script src="/js/utils/include.js"></script>
     </head>
-    <body>
-        <p>Hello, world!</p>
-        <a href="planetas.html">Planetas</a>
-        <a href="formulario.html">Formulario</a>
+
+    <body class="dark">
+        <div id="page-header"></div>
+
+        <h2>Imágenes Recientes</h2>
+        <a href="upload_picture.html">Subir Foto</a>
+
+        <div class="gallery-container">
+            <div class="photo-block">
+                <div class="photo-header-block">
+                    <h2 class ="photo-tittle">BocataLomoYA</h2>
+                    <h3 class="photo-score">10</h3>
+                </div>
+    
+                <div class="photo-image-block">
+                    <img class="photo-image" src="/web/images/bocatalomoya.jpg">
+                </div>
+    
+                <div class="photo-metadata-block">
+                    <p class="photo-description">El monje sabio, ante un hambre atroz, exclamó: ¡Bocata lomo ya!</p>
+                </div>
+    
+                <div class="photo-edit-block">
+                    <button>Editar</button>
+                    <button>Borrar</button>
+                </div>
+            </div>
+
+            <div class="photo-block">
+                <div class="photo-header-block">
+                    <h2 class ="photo-tittle">Hamburguesa Gruesa</h2>
+                    <h3 class="photo-score">9.5</h3>
+                </div>
+    
+                <div class="photo-image-block">
+                    <img class="photo-image" src="/web/images/burger.jpg">
+                </div>
+    
+                <div class="photo-metadata-block">
+                    <p class="photo-description">¿Quieres una hamburguesa?</p>
+                </div>
+    
+                <div class="photo-edit-block">
+                    <button>Puede...</button>
+                    <button>Borrar</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            include("header.html", "#page-header");
+            </script>
+
+        
     </body>
+
 </html>
 
