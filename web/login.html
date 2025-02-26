@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Galería</title>
+        <link rel="icon" href="/images/favicon.ico">
+        <script src="/web/js/utils/include.js"></script>
+    </head>
+
+    <body class="dark">
+
+        <div id="page-header"></div>
+
+        <h2>Login!</h2>
+        <form>
+            <div class="input-group">
+                <label for="text">Username:</label>
+                <input type="text" id="username-input" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password-input">Password:</label>
+                <input type="password" id="password-input" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <input type="submit">
+            </div>
+        </form>
+
+        <script>
+            include("header.html", "#page-header")
+        </script>
+    </body>
+
+</html>

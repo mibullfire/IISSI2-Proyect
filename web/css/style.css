@@ -21,7 +21,7 @@ div.gallery-container {
     grid-template-columns: 33% 33% 33%;
     }
 body.dark {
-    background-color: #E6E6E6;
+    background-color: #bababa;
     color: #000000;
     }
 input, select {
@@ -37,6 +37,13 @@ div.input-group > label {
     .input-group {
     margin-bottom: 0.5em;
     }
+
+/*Código propio para que no haya margenes en el body, de tal manera, el bloque del header no tiene márgenes.
+Con esto mejora la presentación en pantalla completa de la página web.*/    
+body {
+    margin: 0;
+    padding: 0;
+}
 div.title-block {
     text-align: center;
     padding-top: 1%;
