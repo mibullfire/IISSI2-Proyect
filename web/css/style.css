@@ -21,7 +21,7 @@ div.gallery-container {
     grid-template-columns: 33% 33% 33%;
     }
 body.dark {
-    background-color: #bababa;
+    background-color: #222222;
     color: #000000;
     }
 input, select {
