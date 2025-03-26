@@ -4,6 +4,10 @@ alert("Hola! o suerte si estás recargando la página 🕯️");
 
 import { galleryRenderer } from '/js/renderers/gallery.js';
 function main() {
+
+    let myB = document.getElementById("myB");
+    myB.onclick = saludar;
+
     let container = document.getElementById("photo-gallery");
     let photos = [
         {
@@ -37,6 +41,29 @@ function main() {
     ];
     let gallery = galleryRenderer.asCardGallery(photos);
     container.appendChild(gallery);
+
+    let cards = document.querySelectorAll("div.card");
+    for (let card of cards) {
+        card.onmouseenter = handleMouseEnter;
+        card.onmouseleave = handleMouseLeave;
+    }
+}
+
+function handleMouseEnter(event) {
+    let card = event.target;
+    card.style.border = "1.5px solid purple";
+}
+
+function handleMouseLeave(event) {
+    let card = event.target;
+    card.style.border = "none";
+}
+
+
+function saludar(event){
+    // alert("Me has tocado muy fuerte");
+    let myB2 = event.target;
+    alert(myB2.textContent)
 }
 
 document.addEventListener("DOMContentLoaded", main);
