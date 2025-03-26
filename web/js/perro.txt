@@ -1,0 +1,12 @@
+<div class="gallery-container">
+                <div class="card bg-dark text-light">
+                    <img src="https://i.ibb.co/tY1Jcnc/wlZCfCv.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Samoyed</h5>
+                        <p class="card-text">A very good boy.</p>
+                        <p class="text-end">@user1</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
